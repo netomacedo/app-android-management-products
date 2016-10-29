@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProjetoFinalAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="title_activity_list_prod">ListProdActivity</string>
+    <string name="title_activity_add_prod">AddProdActivity</string>
+
+    <!-- ListView -->
+    <string name="description">Produto</string>
+    <string name="qtd">Qtd: </string>
+    <string name="preco">R$ </string>
+    <string name="add">Adicionar</string>
+	
+	<!-- Cadastro de produtos -->
+    <string name="cadName">Nome do Produto</string>
+    <string name="cadPreco">Preço Unitário</string>
+    <string name="cadQtd">Quantidade</string>
+    <string name="save">Salvar</string>
+    <string name="cancel">Cancelar</string>
+
+</resources>
