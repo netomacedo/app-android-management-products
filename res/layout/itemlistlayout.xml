@@ -25,7 +25,7 @@
             android:textStyle="bold" />
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="374dp"
             android:layout_height="25dp"
             android:orientation="horizontal" >
 
@@ -33,7 +33,7 @@
                 android:id="@+id/txtQtd"
                 android:layout_width="0dp"
                 android:layout_height="25dp"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:text="@string/qtd"
                 android:textSize="12sp" />
 
@@ -41,7 +41,7 @@
                 android:id="@+id/txtPreco"
                 android:layout_width="0dp"
                 android:layout_height="25dp"
-                android:layout_weight="1"
+                android:layout_weight="3"
                 android:text="@string/preco"
                 android:textSize="12sp" />
 
@@ -49,7 +49,7 @@
                 android:id="@+id/txtTotal"
                 android:layout_width="0dp"
                 android:layout_height="25dp"
-                android:layout_weight="1"
+                android:layout_weight="3"
                 android:text="@string/preco"
                 android:textSize="12sp"
                 android:textStyle="bold" />

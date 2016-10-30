@@ -12,9 +12,11 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
+        
         <activity
             android:name="com.example.projetofinalandroid.MainActivity"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,14 +26,17 @@
         </activity>
         <activity
             android:name="com.example.projetofinalandroid.ListViewActivity"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
             android:label="@string/title_activity_list_view" >
         </activity>
         <activity
             android:name="com.example.projetofinalandroid.ListProdActivity"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
             android:label="@string/title_activity_list_prod" >
         </activity>
         <activity
             android:name="com.example.projetofinalandroid.AddProdActivity"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
             android:label="@string/title_activity_add_prod" >
         </activity>
     </application>
